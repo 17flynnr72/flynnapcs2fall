@@ -1,11 +1,11 @@
 import java.util.*;
-
-public class ProcessingNumbers {
+//Ryan Flynn
+public class ProjColab {
 	public static void main (String[] args){
-		Scanner userInput = new Scanner(system.in);
+		Scanner userInput = new Scanner(System.in);
 		int input; int total = 0;
 		System.out.println(" Input Numbers");
-		while(userInput.nextInt()){
+		{
 			input = userInput.nextInt();
 			total+=input;
 		}
@@ -13,3 +13,4 @@ public class ProcessingNumbers {
 	}
 
 }
+// the job of this code is to ultimately find the sum of integers and find the min and max
