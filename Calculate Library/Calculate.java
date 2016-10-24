@@ -69,9 +69,25 @@ public class Calculate {
 		}
 		return max;
 	}
-	public static boolean max(double num1, double num2, double num3){
-		
+	public static boolean max(double value1, double value2, double max){
+		max = 0;
+		if (value1 > max) {
+		    if (value2 > max){
+		    }
+		}
+		return false;
 	}
-	
-}
+	public static int min(int min, int value){
+		min = 0;
+		if (value < min) {
+		    min = value;
+		}
+		return min;
+	}
+	public static double round2(double numToRound){
+		(numToRound 
+		return numToRound;	
+	}
+	public static double exponent()
+}             
 	
