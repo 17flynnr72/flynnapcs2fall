@@ -62,6 +62,16 @@ public class Calculate {
 		}
 		else return num1;
 	}
+	public static int max(int value, int max){
+		max = 0;
+		if (value > max) {
+		    max = value;
+		}
+		return max;
+	}
+	public static boolean max(double num1, double num2, double num3){
+		
+	}
 	
 }
 	
