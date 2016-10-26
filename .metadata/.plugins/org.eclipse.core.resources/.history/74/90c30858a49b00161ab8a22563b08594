@@ -1,6 +1,5 @@
-import .java.util.Arrays;
-public class Split {
 
+public class Split {
 	//String.split();
 	//It's a method that acts on a string, <StringName>.split(<String sp>);
 	//Where sp is the string where the string splits
@@ -11,12 +10,7 @@ public class Split {
 	//		it will split at the word "really" and return an array of ["I "," like "," apples!"]
 	
 	//play around with String.split! what happens if you "I reallyreally like apples".split("really") ?
-
 	
-	
-	public void main String(){
-		String.split();
-	}
 	
 	//Your task:
 	/*Write a method that take in a string like "applespineapplesbreadlettustomatobaconmayohambreadcheese" describing a sandwich

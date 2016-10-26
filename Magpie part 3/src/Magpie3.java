@@ -26,6 +26,39 @@ public class Magpie3 {
 	public String getResponse(String statement) {
 		
 		// Paste part 2 code here	
+		public String getGreeting(); {
+			return "Hello, let's talk.";
+		}
+
+		/**
+		 * Gives a response to a user statement
+		 * takes in a user statement
+		 * returns a response based on given rules
+		 */
+		public String getResponse(String statement) {
+			String response = "";
+			if (statement.indexOf("no") >= 0) {
+				response = "Why so negative?";
+			} else if (statement.indexOf("mother") >= 0
+					|| statement.indexOf("father") >= 0
+					|| statement.indexOf("sister") >= 0
+					|| statement.indexOf("brother") >= 0) {
+				response = "Tell me more about your family.";
+			}
+			else if (statement.indexOf("Dreyer") >= 0
+					|| statement.indexOf("Arge") >= 0) {
+				response = "I heard they are pretty cool.";
+			}
+			else if (statement.indexOf("Hello") >= 0
+					|| statement.indexOf("Hi") >= 0) {
+				response = "Greetings to you as well.";		
+					}
+					else {
+				response = getRandomResponse();
+			}
+			return response;
+		}
+		
 		
 		
 	}
