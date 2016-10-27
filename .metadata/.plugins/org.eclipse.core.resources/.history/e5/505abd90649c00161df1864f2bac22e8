@@ -7,8 +7,8 @@ public static void main (String[] args) {
 	System.out.println(Arrays.toString(change));
 	
 	String secondTest = "I really like really red apples";
-	String [] change1 = secondTest.split("really");
-	System.out.println(Arrays.toString(change1));
+	String [] change = secondTest.split("really");
+	System.out.println(Arrays.toString(change));
 	}
 }
 	//String.split();

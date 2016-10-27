@@ -1,14 +1,8 @@
- import java.util.Arrays;
-
 public class Split{
-public static void main (String[] args) {
-	String firstTest = "I like apples!";
-	String [] change = firstTest.split(" ");
-	System.out.println(Arrays.toString(change));
-	
-	String secondTest = "I really like really red apples";
-	String [] change1 = secondTest.split("really");
-	System.out.println(Arrays.toString(change1));
+public static void main(String[] args) {
+		String test = "I really like really red apples"; 
+
+		"I really like really red apples".split("really");
 	}
 }
 	//String.split();

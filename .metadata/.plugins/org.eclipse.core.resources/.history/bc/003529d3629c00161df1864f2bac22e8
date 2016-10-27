@@ -1,16 +1,10 @@
- import java.util.Arrays;
-
 public class Split{
-public static void main (String[] args) {
-	String firstTest = "I like apples!";
-	String [] change = firstTest.split(" ");
-	System.out.println(Arrays.toString(change));
-	
-	String secondTest = "I really like really red apples";
-	String [] change1 = secondTest.split("really");
-	System.out.println(Arrays.toString(change1));
+public static void main(String[] args) {
+		String test = "I really like really red apples"; 
+		String [] testing = test.split("really");
+		
+		
 	}
-}
 	//String.split();
 	//It's a method that acts on a string, <StringName>.split(<String split>);
 	//Where split is the string where the string splits
@@ -36,4 +30,4 @@ public static void main (String[] args) {
 	 * Again, what if it's a fancy sandwich with multiple pieces of bread?
 	*/
 
-
+}

@@ -2,13 +2,9 @@
 
 public class Split{
 public static void main (String[] args) {
-	String firstTest = "I like apples!";
-	String [] change = firstTest.split(" ");
+	String original = "I like apples!";
+	String [] change = original.split(" ");
 	System.out.println(Arrays.toString(change));
-	
-	String secondTest = "I really like really red apples";
-	String [] change1 = secondTest.split("really");
-	System.out.println(Arrays.toString(change1));
 	}
 }
 	//String.split();
