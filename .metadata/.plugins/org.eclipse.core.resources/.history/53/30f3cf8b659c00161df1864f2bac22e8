@@ -6,8 +6,6 @@ public static void main (String[] args) {
 	String [] change = firstTest.split(" ");
 	System.out.println(Arrays.toString(change));
 	
-	// ^This takes the text to be edited, finds the things to remove, and prints the result
-	
 	String secondTest = "I really like really red apples";
 	String [] change1 = secondTest.split("really");
 	System.out.println(Arrays.toString(change1));
