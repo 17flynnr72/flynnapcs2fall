@@ -1,0 +1,14 @@
+package minLab;
+
+public class LotsOfCopies {
+	public static void main(String[] args){
+		int num = 7;
+		String strMain = "APCS";
+		int[] arrMain = {1, 2, 3, 4, 5};
+		System.out.println(num);
+		System.out.println(arrMain);
+		System.out.println(strMain);
+				
+	}
+
+}
