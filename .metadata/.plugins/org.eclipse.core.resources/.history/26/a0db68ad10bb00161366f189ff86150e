@@ -4,7 +4,7 @@ public class FracCalc {
 
     public static void main(String[] args){
     	Scanner userInput = new Scanner(System.in);
-    	if (!userInput.equals("quit")){
+    	while (!userInput.equals("quit")){
     		System.out.println("Type 2 fractions with _ instead of / and numbers separated by \" \"");
     		String mixedFraction = userInput.nextLine();
     		if (mixedFraction.contains(" ") && (mixedFraction.contains("+"))||(mixedFraction.contains("*") &&(mixedFraction.contains("/"))));
