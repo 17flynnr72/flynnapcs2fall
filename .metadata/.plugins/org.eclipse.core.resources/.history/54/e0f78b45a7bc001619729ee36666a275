@@ -1,17 +1,18 @@
 package fracCalc;
 import java.util.*;
 public class FracCalc {
-//requests input, reads it and directs to produceAnswer
+
     public static void main(String[] args){
     	Scanner userInput = new Scanner(System.in);
-    	String input;
-    	System.out.println("Enter your problem or enter quit to quit");
-    	do{
-    		input = userInput.nextLine();
-    		if(!(input.equals("quit"))){
-    			System.out.println(produceAnswer(input));
-    		}
-    	}while(!(input.equals("quit")));
+    	if (!userInput.equals("quit")){
+    		System.out.println("Type 2 fractions with _ instead of / and numbers separated by \" \"");
+    		String mixedFraction = userInput.nextLine();
+    		if (mixedFraction.contains(" ") && (mixedFraction.contains("+"))||(mixedFraction.contains("*") &&(mixedFraction.contains("/"))));
+    			System.out.println(produceAnswer(mixedFraction));
+    	} else {
+    		System.out.println("Enter a Fraction with Space between them");
+    	}
+    	System.out.println("To quit, type quit");
     	
         // TODO: Read the input from the user and call produceAnswer with an equation
 
@@ -26,7 +27,7 @@ public class FracCalc {
     // The function should return the result of the fraction after it has been calculated
     //      e.g. return ==> "1_1/4"
     public static String produceAnswer(String input)
-    { // opVals is short for operand values
+    { 
         // TODO: Implement this function to produce the solution to the input
         
         return "";
