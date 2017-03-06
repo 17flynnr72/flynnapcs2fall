@@ -1,0 +1,33 @@
+package textExcel;
+
+//Update this file with your own code.
+
+public class SpreadsheetLocation implements Location
+{
+	private int rows = 20;
+	private int columns = 12;
+    @Override
+    public int getRow()
+    {    	
+        return this.rows;
+    }
+
+    @Override
+    public int getCol()
+    {
+        return this.columns;
+    }
+    
+    public SpreadsheetLocation(String cellName)
+    {
+        // TODO: Fill this out with your own code
+    	String splitcell = cellName.charAt(0) + " " + cellName.substring(1);
+    	String[] namesplit = splitcell.split(" ");
+    	char rowChar = namesplit[0].charAt(0);
+    	int row = Character.getNumericValue(rowChar) - 1;
+    	this.rows = row;
+    	int col = Integer.valueOf(nameSplit[1]) - 1;
+    	this.columns = col;
+    }
+
+}
